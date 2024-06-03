@@ -6,6 +6,18 @@
 </head>
 <body>
     <h1><a href = 'index.html'>부트캠프</a></h1>
+    <input id = "night_day" type = 'button' value = 'night' onclick="
+    var target = document.querySelector('body');
+    if (this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    this.value = 'day';
+    } else {
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black'
+        this.value = 'night';
+    }
+    ">
     <ol>
     <li><a href = '1.html'>SSAFY</a></li>
     <li><a href = '2.html'>KRAFTON JUNGLE</a></li>
@@ -16,5 +28,18 @@
 <p>부트캠프(bootcamp)는 단기간에 집중하여 코딩 지식을 가르치는 방식으로 
     <strong>소프트웨어 개발자</strong>를 양성하는 것을 목표로 하는 교육기관 또는 교육 프로그램을 말한다.</p>
 <p style = 'margin-top : 40px;'>고용노동부의 국비 지원 프로그램을 위탁 운영하거나 정부기관의 투자를 받는 경우도 다수 있다.</p>
+
+<input id = "night_day" type = 'button' value = 'night' onclick="
+var target = document.querySelector('body');
+    if (this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    this.value = 'day';
+    } else {
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black'
+        this.value = 'night';
+    }
+    ">
 </body>
 </html>

@@ -4,7 +4,7 @@
 <title>우아한테크코스 - html</title>
 <meta charset="UTF-8">
 </head>
-<body>
+<body style = 'background-color : black; color : white;'>
     <h1><a href = 'index.html'>부트캠프</a></h1>
     <ol>
     <li><a href = '1.html'>SSAFY</a></li>
@@ -22,5 +22,29 @@
     코치와 리뷰어가 감싸고 있는 모습을 형상화 했습니다.
     여러분이 각자의 색깔로 빛나는 소프트웨어 장인이 되길 바라는 마음을 담았습니다.</p>
 <img src = '우테코(img).png' alt = '우테코(img)' width='100%' height = '600px'>
+
+<p>
+    <!-- 댓글 화면 만드는 코드 -->
+
+    <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-i8hi8g7y83.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
 </body>
 </html>
